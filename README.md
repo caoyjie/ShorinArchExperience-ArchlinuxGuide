@@ -72,7 +72,7 @@
 ### 项目引用
 
 - [CyberGRUB-2077](https://github.com/adnksharp/CyberGRUB-2077)
-- [mimegrub](https://github.com/Lxtharia/minegrub-theme)
+- [minegrub](https://github.com/Lxtharia/minegrub-theme)
 - [Crossgrub](https://github.com/krypciak/crossgrub)
 - [OldBIOS](https://github.com/Blaysht/grub_bios_theme)
 - [Blue Screen of Life](https://github.com/harishnkr/bsol)
