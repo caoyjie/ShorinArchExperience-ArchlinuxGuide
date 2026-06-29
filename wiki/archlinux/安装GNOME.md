@@ -1,7 +1,6 @@
 目录
 
 - [安装基础组件](安装GNOME.md)
-- [配置 GDM 服务](安装GNOME.md)
 - [网络工具 (nm-connection-editor)](安装GNOME.md#安装高级网络配置工具-nm-connection-editor)
 - [分数缩放与 VRR](安装GNOME.md#可变刷新率和分数缩放)
 - [修改默认终端](安装GNOME.md#修改-gnome-默认终端)

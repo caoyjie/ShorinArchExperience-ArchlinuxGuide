@@ -1,14 +1,12 @@
 # Linux Mint 入门指南
 
-Linux Mint 是最适合新手的发行版。本文是安装 Linux Mint 之后必要的基本配置。
-
 [点击跳转视频教程](https://www.bilibili.com/video/BV19DBqB4EY4/?vd_source=65a8f230813d56660e48ae1afdfa4182#reply115786966372305)
 
 [更详细的日常使用参考视频](https://www.bilibili.com/video/BV1YvenzUEFf/?spm_id_from=333.1387.upload.video_card.click)
 
 ## 安装 Linux Mint
 
->官方的文字教程：[Install Linux Mint](https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html)
+官方的文字教程：[Install Linux Mint](https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html)
 
 下面是安装之后需要进行的配置。
 

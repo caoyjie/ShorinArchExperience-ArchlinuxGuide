@@ -1,4 +1,3 @@
->整个 Wiki 假定了你拥有一个 Windows 系统，如果你不想双系统，自行跳过 Windows 相关的内容。
 
 ## 下载 ISO
 
@@ -66,7 +65,7 @@
 
 4. 预留硬盘空间
 
-    右键 Windows logo 打开磁盘管理。右键你要使用的硬盘分区，通过压缩卷腾出空间给 Linux。
+    右键任务栏上的 Windows logo 打开磁盘管理。右键你要使用的硬盘分区，通过压缩卷腾出空间给 Linux。
 
 ## BIOS 设置
 
@@ -92,5 +91,5 @@
 
     通常是 `F10` 键
 
-下一节：[Arch Linux 安装教程](./archlinux/安装ArchLinux.md) | [Linux Mint 入门指南](./linuxmint/Linuxmint入门.md) | [CachyOS 入门指南](./cachyos/CachyOS.md)
+## 下一节：[Arch Linux 安装教程](./archlinux/安装ArchLinux.md) | [Linux Mint 入门指南](./linuxmint/Linuxmint入门.md) | [CachyOS 入门指南](./cachyos/CachyOS.md)
 

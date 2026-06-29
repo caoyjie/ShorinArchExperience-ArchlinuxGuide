@@ -1,4 +1,4 @@
-- [重要概念讲解](#重要概念讲解)
+GRUB- [重要概念讲解](#重要概念讲解)
 
 - [手动安装](#手动安装)
 
@@ -8,7 +8,7 @@
 
 - [手动安装省流版](手动安装省流版.md)
 
-视频教程：[【从「Linux Mint 入门」到「Arch Linux 安装详解」桌面端 Linux 入门的最佳路径】](https://www.bilibili.com/video/BV19DBqB4EY4/?share_source=copy_web&vd_source=1c6a132d86487c8c4a29c7ff5cd8ac50)
+>视频教程：[【从「Linux Mint 入门」到「Arch Linux 安装详解」桌面端 Linux 入门的最佳路径】](https://www.bilibili.com/video/BV19DBqB4EY4/?share_source=copy_web&vd_source=1c6a132d86487c8c4a29c7ff5cd8ac50)
 
 新手建议先手动安装，把其他安装方式当作重装系统的便利工具，否则日后出现问题自己不会解决。如果手动安装太难，就先使用开箱即用的 Arch，比如 CachyOS。
 
@@ -732,7 +732,7 @@ reboot
 
 通常默认就是刚刚安装的 Arch，如果不是的话选择一下启动项。有的电脑的启动项可能埋在子菜单里，例如 BBS 菜单什么的，仔细找一下。
 
-如果没有出现 Arch Linux 的启动项，看这个页面：<https://wiki.archlinux.org/title/GRUB>
+如果没有出现 Arch Linux 的启动项，看这个页面：[ArchWiki GRUB](https://wiki.archlinux.org/title/GRUB)。
 
 ### 登录 root 账户
 

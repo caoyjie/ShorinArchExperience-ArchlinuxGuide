@@ -1,7 +1,9 @@
 
+# CachyOS 入门指南
+
 CachyOS 是当下最火热的性能特化的 Arch 衍生发行版，本文介绍安装 CachyOS 的方法和一些必要的配置。
 
-CachyOS 分为掌机版（Handheld Edition）和桌面版（Desktop Edition），本文基于桌面版。
+>CachyOS 分为掌机版（Handheld Edition）和桌面版（Desktop Edition），本文基于桌面版。
 
 ## 安装 CachyOS
 
