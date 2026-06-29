@@ -1,95 +1,77 @@
-欢迎来到 Shorin 的 Wiki。
 
-如果有错误欢迎指出，如果有更好的方案欢迎分享。
+## 选择合适的发行版
 
-侧边栏有所有重要内容的索引，你可以按需阅读。**萌新建议从上到下依次阅读**（⚠️警告⚠️ 注意编辑时间，太久不编辑的文章可能已经过时）。
 
----
+  [LinusTechTips的经历](https://www.bilibili.com/video/BV19Pw4zHEE8/?share_source=copy_web&vd_source=1c6a132d86487c8c4a29c7ff5cd8ac50)告诉我们："好的发行版选择至关重要"。通过 [Steam 硬件统计排名](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam?platform=linux) 选择发行版是我觉得最有效最贴合实际的策略。
 
-## 给新人的一段话
+  ![](pictures/home/steamrank.png)
 
-在正式开始之前，请允许我说一段话。我没有计算机相关的知识和经历，以本地 AI 部署为契机尝试 Linux，惊叹 Linux 桌面体验之独特，认为这是极具价值的东西。
+  除去[基于 Arch 开发的 SteamOS](https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/RIZSKIBDSLY4S5J2E2STNP5DH4XZGJMR/)，Arch Linux、Linux Mint 和 CachyOS 常居排行榜前三。
+  >SteamOS 是专为游戏掌机和主机开发的系统，所以排除。
 
-Distro Hopping *[注1]* 期间查阅了很多资料，深感中文互联网 Linux 信息之过时，内容之匮乏，环境之恶臭。在中国，言 Linux 必及服务器、开发等场景，必对桌面嗤之以鼻，功利至极。这样的观念根深蒂固，甚至 Linux 用户自己也持有这样的刻板印象。故 Red Hat、Ubuntu 者尊，而 Arch 者鄙。故卖课出书者众，而桌面内容少有。如果不是英文互联网的信息，这段路途会坎坷得多。这个 GitHub 仓库的初衷只是方便自己回顾，但是我觉得在这个将桌面 Linux 妖魔化的大环境下，一定有和我一样的小白对桌面 Linux 感兴趣但是不知从何下手，故分享了出来。
+  如果你是第一次接触 Linux，[Linux Mint](https://linuxmint.com/) 就是最佳的入门之选，你将拥有最无痛的新手体验。
+  >这涉及到 Linux 显示协议的变迁。现在大部分桌面和发行版都已经转向新的 Wayland 协议，但是 Wayland 严格的权限管理加上软件厂商消极的适配开发，~~点名批评国产厂商~~，常常导致软件在 Wayland 上有各种问题，而 Linux Mint 仍默认使用旧的 X11 以获得更稳定更完整的使用体验。
 
-请谨记，使用 Linux 和与人交流 Linux 时应该明确区分服务端和桌面端，明确区分开发场景和日用场景，否则会产生不必要的麻烦和争执。你也可以通过这种方式明确自己的目的，避免浪费精力在不必要的东西上。
+  如果想更进一步，获得最佳的桌面端 Linux 体验，[Arch Linux](https://archlinux.org/) 是最佳选择。
 
->*注 1：`Distro Hopping`，指反复切换不同 Linux 发行版。`Distro` 是 `Distribution` 的缩写，意为 Linux 发行版本，`Hopping` 有跳跃的意象。*
+  Arch 的安装可能有些复杂，如果想要安装简单，开箱即用的 Arch Linux，以下是我推荐的 Arch 衍生发行版：
 
-## 快速开始
+- [CachyOS](https://cachyos.org/)
 
-- **选择合适的发行版**
+  >极致性能。
 
-    [LinusTechTips的经历](https://www.bilibili.com/video/BV19Pw4zHEE8/?share_source=copy_web&vd_source=1c6a132d86487c8c4a29c7ff5cd8ac50)告诉我们："好的发行版选择至关重要"。通过 [Steam 硬件统计排名](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam?platform=linux) 选择发行版是我觉得最有效最贴合实际的策略。
+  当前最热门的发行版。台式机的首选。缺点是稳定性低于原版 Arch Linux 且功耗略高，不适合注重续航的场景。
 
-    ![](pictures/home/steamrank.png)
+  ![](pictures/home/cachyospreview.webp)
 
-    除去[基于 Arch 开发的 SteamOS](https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/RIZSKIBDSLY4S5J2E2STNP5DH4XZGJMR/)，Arch Linux、Linux Mint 和 CachyOS 常居排行榜前三。
-    >SteamOS 是专为游戏掌机和主机开发的系统，所以排除。
+- [CatOS](https://www.catos.info/)
 
-    如果你是第一次接触 Linux，[Linux Mint](https://linuxmint.com/) 就是最佳的入门之选，你将拥有最无痛的新手体验。
-    >这涉及到 Linux 显示协议的变迁。现在大部分桌面和发行版都已经转向新的 Wayland 协议，但是 Wayland 严格的权限管理加上软件厂商消极的适配开发，~~点名批评国产厂商~~，常常导致软件在 Wayland 上有各种问题，而 Linux Mint 仍默认使用旧的 X11 以获得更稳定更完整的使用体验。
+  >国产，适合中文用户。
 
-    如果想更进一步，获得最佳的桌面端 Linux 体验，[Arch Linux](https://archlinux.org/) 是最佳选择。
+  对中国大陆用户进行了专门调整的 Arch 衍生发行版。官网的 ISO 更新可能不及时，建议加 Q 群：`428382413`。
 
-    Arch 的安装可能有些复杂，如果想要安装简单，开箱即用的 Arch Linux，以下是我推荐的 Arch 衍生发行版：
+  ![](pictures/home/catospreview.png)
 
-  - [CachyOS](https://cachyos.org/)
+- [Garuda Linux](https://garudalinux.org/)
 
-    >极致性能。
+  >外观漂亮，快捷稳定。
 
-    当前最热门的发行版。台式机的首选。缺点是稳定性低于原版 Arch Linux 且功耗略高，不适合注重续航的场景。
+  我个人最喜欢的 Arch 衍生发行版，主题设计很棒，还提供了很多便利工具，缺点是资源占用略高。
 
-    ![](pictures/home/cachyospreview.webp)
+  ![](pictures/home/garudapreview.webp)
 
-  - [CatOS](https://www.catos.info/)
-
-    >国产，适合中文用户。
-
-    对中国大陆用户进行了专门调整的 Arch 衍生发行版。官网的 ISO 更新可能不及时，建议加 Q 群：`428382413`。
-
-    ![](pictures/home/catospreview.png)
-
-  - [Garuda Linux](https://garudalinux.org/)
-
-    >外观漂亮，快捷稳定。
-
-    我个人最喜欢的 Arch 衍生发行版，主题设计很棒，还提供了很多便利工具，缺点是资源占用略高。
-
-    ![](pictures/home/garudapreview.webp)
-
-- **发行版避雷**
+## 发行版避雷
 
   以下是我不建议当作桌面端日用的发行版。
 
-  - [Pop!_OS](https://system76.com/pop/)
+- [Pop!_OS](https://system76.com/pop/)
 
-    > 仍在测试
+  > 仍在测试
 
-    因更换自研桌面导致各种问题，处于转型期，暂时不推荐日用。
+  因更换自研桌面导致各种问题，处于转型期，暂时不推荐日用。
 
-  - [Kali Linux](https://www.kali.org/)
+- [Kali Linux](https://www.kali.org/)
 
-    > 拒绝中二病
+  > 拒绝中二病
 
-    面向网络安全的特殊发行版，其[官方文档](https://www.kali.org/docs/introduction/should-i-use-kali-linux/)明确指出不适合日用。同理，像 [BlackArch](https://blackarch.org/) 这样的发行版也不适合日用。
+  面向网络安全的特殊发行版，其[官方文档](https://www.kali.org/docs/introduction/should-i-use-kali-linux/)明确指出不适合日用。同理，像 [BlackArch](https://blackarch.org/) 这样的发行版也不适合日用。
 
-  - [Debian](https://www.debian.org/)
+- [Debian](https://www.debian.org/)
 
-    > 适合养老
+  > 适合养老
 
-    服务端的霸主，但是对于桌面端来说，它的软件包实在老旧。除非你要绝对的稳定性，否则不推荐使用。
+  服务端的霸主，但是对于桌面端来说，它的软件包实在老旧。除非你要绝对的稳定性，否则不推荐使用。
 
-  - [Debian Sid](https://wiki.debian.org/DebianUnstable)
+- [Debian Sid](https://wiki.debian.org/DebianUnstable)
 
-    > 面向开发者的测试分支
+  > 面向开发者的测试分支
 
-    有些人会推荐通过 Sid 分支兼顾新软件包和 Debian 生态，但[官方文档](https://wiki.debian.org/DebianUnstable)明确指出 Sid 不是滚动发行版本，也不保证拥有发行版的质量。如果你要用 Debian Sid，请使用 [PikaOS Linux](https://wiki.pika-os.com/)。
+  有些人会推荐通过 Sid 分支兼顾新软件包和 Debian 生态，但[官方文档](https://wiki.debian.org/DebianUnstable)明确指出 Sid 不是滚动发行版本，也不保证拥有发行版的质量。如果你要用 Debian Sid，请使用 [PikaOS Linux](https://wiki.pika-os.com/)。
 
-  - [Deepin](https://www.deepin.org/index/zh)
+- [Deepin](https://www.deepin.org/index/zh)
 
-    > 生态隔离
+  > 生态隔离
 
-    对文字办公、影音娱乐来说开箱即用，但是与国际 Linux 生态隔离，需要额外费一番功夫才能正常使用。国产系统的通病。
+  对文字办公、影音娱乐来说开箱即用，但是与国际 Linux 生态隔离，需要额外费一番功夫才能正常使用。国产系统的通病。
 
-### 第一节：[安装任意 Linux 系统前的准备工作](安装任意Linux系统的前期准备工作)
+第一节：[安装任意 Linux 系统前的准备工作](安装任意Linux系统的前期准备工作.md)

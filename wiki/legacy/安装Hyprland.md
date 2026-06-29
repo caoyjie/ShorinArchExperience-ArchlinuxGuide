@@ -1,18 +1,18 @@
 目录
 
-- [⚠️这一章内容已经严重过时](#️这一章内容已经严重过时)
-  - [可选：更换 shell 为 fish](#可选更换shell为fish)
-  - [安装 hyprland](#安装hyprland)
+- [⚠️这一章内容已经严重过时](#这一章内容已经严重过时)
+  - [可选：更换 shell 为 fish](#可选更换-shell-为-fish)
+  - [安装 hyprland](#安装-hyprland)
   - [修改系统语言](#修改系统语言)
   - [显示器设置](#显示器设置)
   - [禁用鼠标加速](#禁用鼠标加速)
   - [触摸板自然滚动](#触摸板自然滚动)
-  - [xwayland 缩放问题](#xwayland缩放问题)
+  - [xwayland 缩放问题](#xwayland-缩放问题)
   - [安装必要软件](#安装必要软件)
-  - [GUI 文档管理器](#gui文档管理器)
+  - [GUI 文档管理器](#gui-文档管理器)
     - [右键从此处打开终端](#右键从此处打开终端)
-    - [更改默认终端为 kitty](#更改默认终端为kitty)
-    - [生成 home 目录下的目录](#生成home目录下的目录)
+    - [更改默认终端为 kitty](#更改默认终端为-kitty)
+    - [生成 home 目录下的目录](#生成-home-目录下的目录)
   - [桌面套件](#桌面套件)
     - [程序启动器](#程序启动器)
   - [蓝牙](#蓝牙)
@@ -90,7 +90,7 @@ sudo pacman -S hyprland kitty firefox
    shell fish
    ```
 
-   美化 kitty 的部分在这里：[kitty 美化](终端美化#Kitty美化)
+   美化 kitty 的部分在这里：[kitty 美化](../archlinux/终端美化.md#kitty美化)
 
 ## 修改系统语言
 
@@ -380,11 +380,11 @@ yay -S satty slurp grim
 
 ## 中文输入法
 
-0. 需要[添加 archlinuxcn](安装桌面环境前的准备#AUR助手)。
+0. 需要[添加 archlinuxcn](../archlinux/安装桌面环境前的准备.md#aur助手)。
 
 1. 安装
 
-   看中文输入法一节：[中文输入法](中文输入法)
+   看中文输入法一节：[中文输入法](../archlinux/中文输入法.md)
 
 2. 环境变量
 
@@ -406,10 +406,10 @@ yay -S satty slurp grim
 
 ## flatpak
 
-在[安装桌面环境前的准备](安装桌面环境前的准备)一节中我们已经配置了 flatpak，可以安装一个 GUI。
+在[安装桌面环境前的准备](../archlinux/安装桌面环境前的准备.md)一节中我们已经配置了 flatpak，可以安装一个 GUI。
 
 ```
 sudo pacman -S bazaar
 ```
 
-## 下一节：[软件安装相关](软件安装相关)
+## 下一节：[软件安装相关](../archlinux/软件安装相关.md)

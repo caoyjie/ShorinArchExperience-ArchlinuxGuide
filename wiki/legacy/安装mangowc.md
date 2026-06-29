@@ -1,25 +1,25 @@
 目录
 
-- [Mangowc简介](安装Mangowc#什么是mangowc)
-- [安装Fish](安装Mangowc#可选安装fish)
-- [AUR助手](安装Mangowc#安装aur助手)
-- [安装Mangowc](安装Mangowc#安装mangowc)
-- [配置文件](安装Mangowc#移动配置文件)
-- [自启动脚本](安装Mangowc#创建程序自动启动脚本)
-- [显示器配置](安装Mangowc#显示器配置)
-- [鼠标设置](安装Mangowc#禁用鼠标加速)
-- [触摸板设置](安装Mangowc#触摸板自然滚动)
-- [基础组件](安装Mangowc#重要程序)
-- [文件管理器](安装Mangowc#gui文档管理器)
-- [锁屏设置](安装Mangowc#锁屏)
-- [电源管理](安装Mangowc#自动锁屏熄屏休眠)
-- [Waybar面板](安装Mangowc#任务栏waybar)
-- [面板组件](安装Mangowc#任务栏组件)
-- [剪贴板](安装Mangowc#剪贴板)
-- [壁纸管理](安装Mangowc#壁纸切换)
-- [截图录屏](安装Mangowc#截图和录屏)
-- [系统语言](安装Mangowc#修改系统语言为中文)
-- [窗口规则](安装Mangowc#窗口规则修复)
+- [Mangowc简介](安装mangowc.md#什么是mangowc)
+- [安装Fish](安装mangowc.md#可选安装fish)
+- [AUR助手](安装mangowc.md#安装aur助手)
+- [安装Mangowc](安装mangowc.md#安装mangowc)
+- [配置文件](安装mangowc.md#默认配置文件)
+- [自启动脚本](安装mangowc.md#创建程序自动启动脚本)
+- [显示器配置](安装mangowc.md#显示器配置)
+- [鼠标设置](安装mangowc.md#禁用鼠标加速)
+- [触摸板设置](安装mangowc.md#触摸板自然滚动)
+- [基础组件](安装mangowc.md#重要程序)
+- [文件管理器](安装mangowc.md#gui文档管理器)
+- [锁屏设置](安装mangowc.md#锁屏)
+- [电源管理](安装mangowc.md#自动锁屏熄屏休眠)
+- [Waybar面板](安装mangowc.md#任务栏waybar)
+- [面板组件](安装mangowc.md#任务栏组件)
+- [剪贴板](安装mangowc.md#剪贴板)
+- [壁纸管理](安装mangowc.md#壁纸切换)
+- [截图录屏](安装mangowc.md#截图和录屏)
+- [系统语言](安装mangowc.md#修改系统语言为中文)
+- [窗口规则](安装mangowc.md#窗口规则修复)
 
 ---
 
@@ -49,7 +49,7 @@ sudo pacman -S fish
 
 运行fish命令即可打开fish。如果之后想在打开终端的时候自动进入fish的话可以设置类似`kitty -e fish` `ghostty -e fish`这样的快捷键。
 
-## [安装aur助手](yay-AUR助手)
+## [安装aur助手](../archlinux/安装桌面环境前的准备.md#aur助手)
 
 mangowc在aur里，所以需要先安装aur助手（点击超链接可以跳转安装aur助手页面）。
 
@@ -810,6 +810,6 @@ env=LC_MESSAGES,zh_CN.UTF-8
 
 ## 其他重要的通用配置
 
-- [中文输入法](中文输入法)
+- [中文输入法](../archlinux/中文输入法.md)
 
-## 下一节：[软件安装相关](软件安装相关)
+## 下一节：[软件安装相关](../archlinux/软件安装相关.md)
