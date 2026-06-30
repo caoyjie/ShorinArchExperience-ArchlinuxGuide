@@ -384,9 +384,8 @@ https://www.gnome-look.org/browse?cat=134&ord=latest
 
 主题主要分 gtk-3、gtk-4 和 gnome-shell。user themes 扩展和 gnome-tweaks 之类的软件修改 gnome-shell 比较方便。修改 gtk-3 主题的话建议用 nwg-look，gtk-4 的文件自己复制粘贴到 `~/.config/gtk-4.0/`。
 
-## 下一节：[终端美化](终端美化.md)
-
-
-## 导出gnome快捷键
+## 拓展：导出gnome快捷键
 
 用 `dconf dump 路径` 命令导出 dconf 配置到文件。用 `dconf load 路径` 命令导入。快捷键的配置可以使用 `dconf-editor` 查找。
+
+下一节：[终端美化](终端美化.md)

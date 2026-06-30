@@ -47,6 +47,6 @@
 
   使用 BOOTICE 这个软件的 UEFI 功能。在 UEFI 启动序列中删除你要删除的系统启动项。
 
-## 最后：[issues](issues.md)和[附录](附录.md)
+最后：[issues](issues.md)和[附录](附录.md)
 ---
 

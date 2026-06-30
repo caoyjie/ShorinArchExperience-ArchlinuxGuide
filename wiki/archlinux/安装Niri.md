@@ -344,10 +344,6 @@ environment {
 }
 ```
 
-用 `LANG` 变量设置本地化使用中文。再把 `LC_CTYPE` 设置为英文解决输入法漏字的异常。
-
->已知问题：`LC_CTYPE` 为英文导致 Steam 无法输入中文，可以 `yay -S pins-git` 安装 `pins` 编辑 Steam 的 .desktop 文件，在 `Exec=` 的开头添加 `env LC_CTYPE=zh_CN.UTF-8` 以中文启动 Steam。
-
 - 如果是 archinstall 安装的系统，需要额外进行如下操作：
 
   1. ```bash
@@ -1458,4 +1454,4 @@ layer-rule {
 
 接下来你可以按照自己的需求决定安装什么软件。当然，你也可以选择参考我的
 
-## 下一节：[软件安装相关](软件安装相关.md)
+下一节：[软件安装相关](软件安装相关.md)
