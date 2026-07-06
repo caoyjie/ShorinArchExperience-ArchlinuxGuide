@@ -42,6 +42,22 @@
 
   ![](pictures/home/garudapreview.webp)
 
+## 其他推荐的发行版
+
+以下是值得尝试的发行版
+
+- [Fedora](https://fedoraproject.org/)
+
+  >你一定听说过 CentOS 吧
+
+  永远处在 Linux 技术的最前沿，~~有人说这是当小白鼠~~。红帽是现代 Linux 技术生态的奠基者，Fedora 作为红帽系发行版的上游，如果以后想往这个方向发展职业的话一定要试试。
+
+- [PikaOS Linux](https://wiki.pika-os.com/en/home)
+
+  >Debian 系的“Arch”
+
+  基于 Debian 开发分支的游戏发行版。Debian 常常因软件包老旧被诟病，而软件包很新的开发分支又不够稳定，PikaOS 很好地解决了这些问题。推荐给习惯 Debian 生态，同时又想要软件够新的人使用。
+
 ## 发行版避雷
 
   以下是我不建议当作桌面端日用的发行版。
