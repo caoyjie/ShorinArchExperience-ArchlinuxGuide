@@ -1,6 +1,7 @@
 
 ## 选择合适的发行版
 
+  >~~好的教程敢于为读者做出选择~~
 
   [LinusTechTips的经历](https://www.bilibili.com/video/BV19Pw4zHEE8/?share_source=copy_web&vd_source=1c6a132d86487c8c4a29c7ff5cd8ac50)告诉我们："好的发行版选择至关重要"。通过 [Steam 硬件统计排名](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam?platform=linux) 选择发行版是我觉得最有效最贴合实际的策略。
 
@@ -10,6 +11,7 @@
   >SteamOS 是专为游戏掌机和主机开发的系统，所以排除。
 
   如果你是第一次接触 Linux，[Linux Mint](https://linuxmint.com/) 就是最佳的入门之选，你将拥有最无痛的新手体验。
+  
   >这涉及到 Linux 显示协议的变迁。现在大部分桌面和发行版都已经转向新的 Wayland 协议，但是 Wayland 严格的权限管理加上软件厂商消极的适配开发，~~点名批评国产厂商~~，常常导致软件在 Wayland 上有各种问题，而 Linux Mint 仍默认使用旧的 X11 以获得更稳定更完整的使用体验。
 
   如果想更进一步，获得最佳的桌面端 Linux 体验，[Arch Linux](https://archlinux.org/) 是最佳选择。
