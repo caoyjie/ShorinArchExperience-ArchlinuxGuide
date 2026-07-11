@@ -1,5 +1,7 @@
 
-- 和 Windows 共用 EFI 分区时
+## 删除分区和引导 
+
+  和 Windows 共用 EFI 分区时
 
   [(重制)彻底删除Linux卸载后的无用引导项_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV14p4y1n7rJ/?spm_id_from=333.1387.favlist.content.click)
 
@@ -43,10 +45,8 @@
 
     2. 使用磁盘管理右键分区删除。
 
-- 删除 NVRAM 入口
+## 删除主板上储存的入口
 
   使用 BOOTICE 这个软件的 UEFI 功能。在 UEFI 启动序列中删除你要删除的系统启动项。
 
-最后：[issues](issues.md)和[附录](附录.md)
----
 
