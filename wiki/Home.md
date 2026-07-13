@@ -1,4 +1,12 @@
 
+## 什么是发行版
+
+Linux 只是一个内核，我们说 Linux 发行版的时候指的是将各种各样的软件和 Linux 内核打包好之后发行的操作系统。
+
+因为源代码是公开的，并且使用的版权协议允许任何人自由进行修改、分发等操作，而不同开发者的理念、目的、偏好、发行策略不同，也就产生了各式各样的 Linux 发行版。
+
+从 [Wikipedia List of Linux distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions) 页面可以看到一张特别长的发行版分支图。这其中最大，最值得重点提及的是 [Debian](https://www.debian.org/) 系发行版。即使是不熟悉 Linux 的人也可能听说过 Ubuntu（乌班图），它就是基于 Debian 制作的发行版。如果有一个软件要适配 Linux，那么它大概率会先出甚至只出 Debian 系的 `.deb` 后缀的软件包。虽然其他发行版通过一些额外操作也能装上 `.deb` 包，但是免不了要折腾，直接用 Debian 系发行版通常会更方便。
+
 ## 选择合适的发行版
 
   >~~好的教程敢于为读者做出选择~~
@@ -10,13 +18,13 @@
   除去[基于 Arch 开发的 SteamOS](https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/RIZSKIBDSLY4S5J2E2STNP5DH4XZGJMR/)，Arch Linux、Linux Mint 和 CachyOS 常居排行榜前三。
   >SteamOS 是专为游戏掌机和主机开发的系统，所以排除。
 
-  如果你是第一次接触 Linux，[Linux Mint](https://linuxmint.com/) 就是最佳的入门之选，你将拥有最无痛的新手体验。
+  如果你是第一次接触 Linux，[Linux Mint](https://linuxmint.com/) 就是最佳的入门之选，它是以新手友好为最大卖点的 Debian 系发行版，你将拥有最无痛的新手体验。
   
-  >这涉及到 Linux 显示协议的变迁。现在大部分桌面和发行版都已经转向新的 Wayland 协议，但是 Wayland 严格的权限管理加上软件厂商消极的适配开发，~~点名批评国产厂商~~，常常导致软件在 Wayland 上有各种问题，而 Linux Mint 仍默认使用旧的 X11 以获得更稳定更完整的使用体验。
+  >这还涉及到 Linux 显示协议的变迁。现在大部分桌面和发行版都已经转向新的 Wayland 协议，但是 Wayland 严格的权限管理加上软件厂商消极的适配开发，~~点名批评国产厂商~~，常常导致软件在 Wayland 上有各种问题，而 Linux Mint 仍将 X11 作为可选项，可以获得更稳定更完整的使用体验。
 
   如果想更进一步，获得最佳的桌面端 Linux 体验，[Arch Linux](https://archlinux.org/) 是最佳选择。
 
-  >Arch 处在精简、易用、自由的平衡点。拥有最新的软件、详尽的文档、最方便的软件安装方式、最偏向桌面端日用的社区氛围，甚至还有 Steam 的背书。
+  >Arch 处在精简、易用和自由的平衡点。拥有最新的软件、最详尽的文档、最偏向桌面端日用的社区氛围，甚至还有 Steam 的背书。软件生态由社区用户提供的各种一键安装脚本扩充，虽然存在安全隐患，但是非常丰富，非常方便。
 
   Arch 的安装可能有些复杂，如果想要安装简单，开箱即用的 Arch Linux，以下是我推荐的 Arch 衍生发行版：
 
