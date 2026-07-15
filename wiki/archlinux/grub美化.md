@@ -1,4 +1,6 @@
-1. 网上下载 GRUB 主题放到 `/usr/share/grub/themes/`。
+这一节是美化开机时候的菜单界面。
+
+1. 网上下载 GRUB 主题放到 `/boot/grub/themes`，或者`/usr/share/grub/themes/`。
 
 2. 编辑 GRUB 源文件
 
@@ -6,6 +8,9 @@
     vim /etc/default/grub
     ```
     - 主题路径
+
+        下载下来的主题目录里通常会有一个`theme.txt`，我们要让 Grub 读取它。
+
         `GRUB_THEME="/path/to/theme.txt"`
 
     - 分辨率
@@ -25,5 +30,5 @@
 
 https://github.com/Jacksaur/Gorgeous-GRUB
 
-下一节：[显卡切换](显卡切换.md)
+下一节：[虚拟机](虚拟机.md)
 

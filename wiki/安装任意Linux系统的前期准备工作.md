@@ -91,5 +91,5 @@
 
     通常是 `F10` 键
 
-下一节：[Arch Linux 安装教程](./archlinux/安装ArchLinux.md) | [Linux Mint 入门指南](./linuxmint/Linuxmint入门.md) | [CachyOS 入门指南](./cachyos/CachyOS.md)
+下一节： [Linux Mint 入门指南](./linuxmint/Linuxmint入门.md)  |  [CachyOS 入门指南](./cachyos/CachyOS.md) | [Arch Linux 安装教程](./archlinux/安装ArchLinux.md) |
 
