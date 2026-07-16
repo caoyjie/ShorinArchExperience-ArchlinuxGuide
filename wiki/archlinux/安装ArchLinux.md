@@ -1,3 +1,9 @@
+
+# 请先阅读此处的行为准则：[ArchWiki_行为准则](https://wiki.archlinuxcn.org/wiki/%E8%A1%8C%E4%B8%BA%E5%87%86%E5%88%99)
+
+<details><summary>然后再进行 Arch Linux 的安装。</summary>
+<br>
+
 - [重要概念讲解](#重要概念讲解)
 
 - [手动安装](#手动安装)
@@ -836,3 +842,5 @@ cmatrix -r
 运行 `archinstall` 打开安装脚本。
 
 下一节：[安装桌面环境前的准备](安装桌面环境前的准备.md)
+
+</details>
