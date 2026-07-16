@@ -1,5 +1,5 @@
 
-# 请先阅读此处的行为准则：[ArchWiki_行为准则](https://wiki.archlinuxcn.org/wiki/%E8%A1%8C%E4%B8%BA%E5%87%86%E5%88%99)
+# 请先阅读此处的行为准则中的第一节和第二节：[ArchWiki_行为准则](https://wiki.archlinuxcn.org/wiki/%E8%A1%8C%E4%B8%BA%E5%87%86%E5%88%99)
 
 <details><summary>然后再进行 Arch Linux 的安装。</summary>
 <br>
